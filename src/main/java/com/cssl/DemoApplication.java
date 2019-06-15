@@ -13,7 +13,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 @SpringBootApplication
 public class DemoApplication extends SpringBootServletInitializer {
 
-	//主方法启动springboot
+	//主方法启动
 	public static void main(String[] args) throws Exception {
 
 		SpringApplication.run(DemoApplication.class,args);
