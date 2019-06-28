@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class MyController {
 
+    /**
+    *注释
+    */
     @RequestMapping("/index.action")
     public String index(){
         System.out.println("index:");
